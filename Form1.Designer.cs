@@ -36,8 +36,6 @@
             this.missedLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.totalLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.acuracyLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.difficultyProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,9 +64,7 @@
             this.correctLabel,
             this.missedLabel,
             this.totalLabel,
-            this.acuracyLabel,
-            this.toolStripStatusLabel1,
-            this.difficultyProgressBar});
+            this.acuracyLabel});
             this.statusStrip1.Location = new System.Drawing.Point(0, 109);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(856, 22);
@@ -100,19 +96,6 @@
             this.acuracyLabel.Size = new System.Drawing.Size(118, 17);
             this.acuracyLabel.Text = "toolStripStatusLabel1";
             // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(327, 17);
-            this.toolStripStatusLabel1.Spring = true;
-            this.toolStripStatusLabel1.Text = "Difficulty";
-            this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // difficultyProgressBar
-            // 
-            this.difficultyProgressBar.Name = "difficultyProgressBar";
-            this.difficultyProgressBar.Size = new System.Drawing.Size(100, 16);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -139,8 +122,6 @@
         private System.Windows.Forms.ToolStripStatusLabel missedLabel;
         private System.Windows.Forms.ToolStripStatusLabel totalLabel;
         private System.Windows.Forms.ToolStripStatusLabel acuracyLabel;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripProgressBar difficultyProgressBar;
     }
 }
 
